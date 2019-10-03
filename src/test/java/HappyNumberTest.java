@@ -7,11 +7,5 @@ import static org.junit.Assert.*;
 
 public class HappyNumberTest
 {
-    @Test
-    public void givenZeroNumber_whenCheck_thenShouldNotBeHappyNumber()
-    {
-        HappyNumber number= new HappyNumber(0);
 
-        assertFalse(HappyNumber.checkHappyNumber(0));
-    }
 }
