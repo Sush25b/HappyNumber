@@ -4,12 +4,13 @@ public class HappyNumber
 {
     private int inputValue;
 
-    public HappyNumber(int inputValue) {
+    public HappyNumber(int inputValue)
+    {
         this.inputValue = inputValue;
     }
 
-    public static boolean checkHappyNumber(int inputNumber)
+    public static boolean checkNumber()  //isHappyNumber
     {
-        return false;
+        return true;
     }
 }

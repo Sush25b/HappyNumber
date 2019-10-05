@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class HappyNumberTest
-{
+public class HappyNumberTest {
+
 
 }
