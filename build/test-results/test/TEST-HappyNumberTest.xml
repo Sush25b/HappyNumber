@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="HappyNumberTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-05T13:16:01" hostname="Sushants-MacBook-Pro.local" time="0.001">
+<testsuite name="HappyNumberTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-10-05T14:01:02" hostname="Sushants-MacBook-Pro.local" time="0.001">
   <properties/>
-  <testcase name="givenANumberOne_whenCheck_thenNumberIsAHappyNumber" classname="HappyNumberTest" time="0.001"/>
+  <testcase name="givenNumberOne_whenCheck_thenNumberIsAHappyNumber" classname="HappyNumberTest" time="0.001"/>
+  <testcase name="givenNumberNotOne_whenCheck_thenItIsNotHappyNumber" classname="HappyNumberTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

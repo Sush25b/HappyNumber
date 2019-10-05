@@ -6,6 +6,10 @@ public class HappyNumber
 
     public static boolean checkNumber(int number)  //isHappyNumber
     {
-        return true;
+        if(number==1)
+        {
+            return true;
+        }
+        return false;
     }
 }

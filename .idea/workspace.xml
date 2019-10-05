@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c6e9e2f-120f-4203-9b58-acac02c7cff3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thoughtworks/check/HappyNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thoughtworks/check/HappyNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/HappyNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HappyNumberTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
