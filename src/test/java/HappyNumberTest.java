@@ -9,7 +9,8 @@ public class HappyNumberTest {
 
     @Test
     public void givenNumberOne_whenCheck_thenNumberIsAHappyNumber() {
-        HappyNumber happyNumber = new HappyNumber(1);
-        Assert.assertTrue(happyNumber.checkNumber());
+        HappyNumber happyNumber = new HappyNumber();
+        Assert.assertTrue(happyNumber.checkNumber(1));
     }
+
 }

@@ -2,14 +2,9 @@ package com.thoughtworks.check;
 
 public class HappyNumber
 {
-    private int inputValue;
+    private int numberToCheck;
 
-    public HappyNumber(int inputValue)
-    {
-        this.inputValue = inputValue;
-    }
-
-    public static boolean checkNumber()  //isHappyNumber
+    public static boolean checkNumber(int number)  //isHappyNumber
     {
         return true;
     }
