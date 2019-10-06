@@ -27,4 +27,10 @@ public class HappyNumberTest {
 
         assertTrue(happyNumber.checkNumber(10));
     }
+
+    @Test
+    public void givenNumberNineteen_whenCheck_thenItsAHappyNumber() {
+
+        assertTrue(happyNumber.checkNumber(19));
+    }
 }
