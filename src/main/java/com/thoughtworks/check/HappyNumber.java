@@ -5,30 +5,27 @@ import java.util.List;
 
 public class HappyNumber {
     private int numberToCheck;
-    List<Integer> nonHappyNumbers= new ArrayList<>();
+    private List<Integer> nonHappyNumbers= new ArrayList<>();
 
-    public boolean checkNumber(int number)     //check for number hapy or not
+    public boolean checkNumber(int number)     //isHappyNumber
     {
         if (number == 1) {
             return true;
         }
 
-        int isHappyNum = this.squareSum(number);
+        int newNumber = this.squareSum(number);  //1
 
         if(nonHappyNumbers.contains(number))
         {
             return false;
         }
 
-        if(isHappyNum!=1)
-        {
-            nonHappyNumbers.add(number);
-        }
+        nonHappyNumbers.add(number);
 
-        return this.checkNumber(isHappyNum);
+        return checkNumber(newNumber);
     }
 
-    public int squareSum(int n) {                          //n=10
+    private int squareSum(int n) {
         int sum = 0;
         while (n != 0) {
             sum = sum + this.squareOfNumber(n % 10);  //10==> 0;    0+0   0+1
@@ -37,7 +34,7 @@ public class HappyNumber {
         return sum;
     }
 
-    public int squareOfNumber(int n) {
+    private int squareOfNumber(int n) {
         return n * n;
     }
 

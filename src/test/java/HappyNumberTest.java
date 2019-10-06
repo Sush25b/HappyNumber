@@ -36,7 +36,6 @@ public class HappyNumberTest {
 
     @Test
     public void givenNumberTwoHundredThrirtyNine_whenCheck_thenItsAHappyNumber() {
-
         assertTrue(happyNumber.checkNumber(239));
     }
 }
